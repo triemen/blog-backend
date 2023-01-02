@@ -24,7 +24,12 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Simple Nest.JS blog to demo CRUD.
+Create: POST http://localhost:8080/blog/post
+Get all posts: GET http://localhost:8080/blog/posts
+Get specific post: GET http://localhost:8080/blog/post/:postID
+Update: PUT http://localhost:8080/blog/edit?postID=63b2dbf7218170633eaf094e
+Delete: DELETE http://localhost:8080/blog/delete?postID=63b2dbf7218170633eaf094e
 
 ## Installation
 
