@@ -36,6 +36,8 @@ Update: `PUT http://localhost:8080/blog/edit?postID=63b2dbf7218170633eaf094e`
 
 Delete: `DELETE http://localhost:8080/blog/delete?postID=63b2dbf7218170633eaf094e`
 
+Note that the POST, PUT and DELETE endpoints need authentication. For that, go to the auth0 dashboard -> Test -> copy the Bearer-Token or provide it via your front-end.
+
 ## Installation
 
 ```bash
